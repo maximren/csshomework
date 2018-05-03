@@ -1,0 +1,163 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container-full {
+  width: 700px;
+}
+
+.header-log, .header-replacement, .navigation, .main, .main1, .main2, .main3, .main4, .main5, .main6, .main7, .footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  padding:10px;
+}
+
+.header-log{
+  width: 120px;
+  height: 40px;
+  background: darkgrey;
+}
+
+.header-replacement{
+  width: 350px;
+  height: 40px;
+  background: darkgrey;
+
+}
+
+.contaier-navigation{
+  padding:10px;
+  width:100%;
+
+}
+  
+.navigation{
+  height: 30px;
+  background: darkgrey;
+  width:100%;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.main-container > div > div {
+  margin-bottom: 5px;
+}
+
+.main-container > div {
+  padding:10px;
+}
+
+.main-first{;
+  display: flex;
+  flex-direction: column;
+}
+
+.main{
+  width: 350px;
+  height: 150px;
+  background: darkgrey;
+}
+
+.main1{
+  width: 350px;
+  height: 150px;
+  background: darkgrey; 
+}
+
+.main2{
+  width: 350px;
+  height: 300px;
+  background: darkgrey;
+}
+
+.main-second{
+  display: flex;
+  flex-direction: column;
+}
+
+.main-second > div > div {
+  margin-bottom: 5px;
+}
+
+.main-second > div {
+  padding:10px;
+}
+
+.main3{
+  width: 130px;
+  height: 180px;
+  background: darkgrey;
+}
+
+.main4{
+  width: 130px;
+  height: 385px;
+  background: darkgrey;
+}
+
+.main-third{
+  display: flex;
+  flex-direction: column;
+}
+
+.main-third > div > div {
+  margin-bottom: 5px;
+}
+
+.main-third > div {
+  padding:10px;
+}
+
+.main5{
+  width: 140px;
+  height: 120px;
+  background: darkgrey;
+}
+
+.main6{
+  width: 140px;
+  height: 280px;
+  background: darkgrey;
+}
+
+
+.main7{
+  width: 140px;
+  height: 140px;
+  background: darkgrey;
+}
+
+
+.footer-container{
+  display: flex;
+  padding: 10px;
+  width: 100%;
+}
+
+.footer{
+  height: 70px;
+  background: darkgrey;
+  width: 100%; 
+}
+
+span {
+  text-align: center;
+  font-size: 14px;
+  color: lightgrey;
+  font-family: sans-serif;
+  max-width: 80%;
+}
+
+  
